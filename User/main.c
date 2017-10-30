@@ -28,13 +28,17 @@
 #include "bsp_led.h"   
 #include "List.h"
 
+
 int main(void)
-{ 	
-    
+{ 	 
 	systick_init(72);				            /*初始化Systick工作时钟*/
 	USART1_Config(); 				            /*初始化串口通信:115200@8-n-1*/
-
-  printf("  野火网络适配版 TCP Client Demo V1.0 \r\n");		
+  LED_GPIO_Config();
+  printf(" List Test\r\n");		
+	
+	Head=NodeCreat();
+	Insert_data();
+//	Print_Node();
 
 	while(1)                            /*循环执行的函数*/ 
 	{

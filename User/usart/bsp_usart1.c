@@ -17,11 +17,14 @@
   
 #include "bsp_usart1.h"
 #include "utility.h"
+#include <string.h>
+#include "List.h"
 
 
 uint8_t Rx1_cnt=0;
 uint8_t Rx1_buf[400]={0};
-
+uint8_t Rx1_Temp[400]={0};
+uint8_t Temp_cnt=0;
 
  /**
   * @brief  USART1 GPIO 配置,工作模式配置。9600 8-N-1
@@ -82,12 +85,28 @@ void USART1_Receive(void)
 	{
 	  delay_ms(10);
 	  if(rxlen == Rx1_cnt && rxlen)
-	  {		 
-	   printf("%s\r\n",Rx1_buf);
-    // send(SOCK_TCPC,Rx1_buf,Rx1_cnt);	
-     Rx1_cnt=0;
+	  {		
+     memcpy(Rx1_Temp,Rx1_buf,Rx1_cnt);		
+//	   printf("%s",Rx1_Temp);	
+     printf("Delete List\r\n");			
+		 Delete_Node(0x02);
+		 memset(Rx1_buf,0,Rx1_cnt);
+     Rx1_cnt=0;	
+			
     }
   }
+}
+
+void USART1_Dispose(uint8_t *Msg,uint8_t cnt)
+{
+  uint8_t i=0;
+	uint8_t ch=0;
+	
+	for(i=0;i<cnt;)
+	{
+		ch=*(Msg+i++);
+    printf("%d",ch);
+	}
 }
 
 

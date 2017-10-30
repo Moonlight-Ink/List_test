@@ -11,6 +11,7 @@
 
 void USART1_Config(void);
 void USART1_Receive(void);
+void USART1_Dispose(uint8_t *Msg,uint8_t cnt);
 //int fputc(int ch, FILE *f);
 //void USART1_printf(USART_TypeDef* USARTx, uint8_t *Data,...);
 
