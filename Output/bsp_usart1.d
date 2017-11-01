@@ -16,3 +16,7 @@
 ..\..\output\bsp_usart1.o: ..\..\User\utility\types.h
 ..\..\output\bsp_usart1.o: F:\Program Files\Keil_472a\ARM\ARMCC\bin\..\include\string.h
 ..\..\output\bsp_usart1.o: ..\..\User\List\List.h
+..\..\output\bsp_usart1.o: ..\..\User\led\bsp_led.h
+..\..\output\bsp_usart1.o: ..\..\User\dispose\dispose.h
+..\..\output\bsp_usart1.o: ..\..\User\cjson\cJSON.h
+..\..\output\bsp_usart1.o: F:\Program Files\Keil_472a\ARM\ARMCC\bin\..\include\stddef.h

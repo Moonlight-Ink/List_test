@@ -27,6 +27,9 @@
 #include "utility.h"
 #include "bsp_led.h"   
 #include "List.h"
+#include "cJSON.h"
+#include "dispose.h"
+
 
 
 int main(void)
@@ -39,7 +42,10 @@ int main(void)
 	Head=NodeCreat();
 	Insert_data();
 //	Print_Node();
+	
 
+
+	
 	while(1)                            /*循环执行的函数*/ 
 	{
 		USART1_Receive();

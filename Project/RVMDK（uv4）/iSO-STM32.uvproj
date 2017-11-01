@@ -351,7 +351,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_HD, USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\Libraries\CMSIS;..\..\User;..\..\Libraries\FWlib\inc;..\..\User\usart;..\..\User\led;..\..\User\utility;..\..\User\List</IncludePath>
+              <IncludePath>..\..\Libraries\CMSIS;..\..\User;..\..\Libraries\FWlib\inc;..\..\User\usart;..\..\User\led;..\..\User\utility;..\..\User\List;..\..\User\dispose;..\..\User\cjson</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -541,6 +541,36 @@
               <FileName>utility.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\..\User\utility\utility.h</FilePath>
+            </File>
+            <File>
+              <FileName>dispose.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\dispose\dispose.c</FilePath>
+            </File>
+            <File>
+              <FileName>dispose.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\User\dispose\dispose.h</FilePath>
+            </File>
+            <File>
+              <FileName>cJSON.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\cjson\cJSON.c</FilePath>
+            </File>
+            <File>
+              <FileName>cJSON.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\User\cjson\cJSON.h</FilePath>
+            </File>
+            <File>
+              <FileName>malloc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\cjson\malloc.c</FilePath>
+            </File>
+            <File>
+              <FileName>malloc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\User\cjson\malloc.h</FilePath>
             </File>
           </Files>
         </Group>

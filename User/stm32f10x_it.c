@@ -161,11 +161,11 @@ void USART1_IRQHandler(void)
 	if(USART_GetITStatus(USART1,USART_IT_RXNE)!=RESET)
 	{
      ch=USART_ReceiveData(USART1);
-		 if(Rx1_cnt<100)
-		 {
+//		 if(Rx1_cnt<400)
+//		 {
       Rx1_buf[Rx1_cnt]=ch;
 			Rx1_cnt++; 
-     }
+//     }
   }
 
 

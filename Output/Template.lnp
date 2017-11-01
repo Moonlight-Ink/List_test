@@ -17,6 +17,9 @@
 "..\..\output\bsp_led.o"
 "..\..\output\list.o"
 "..\..\output\utility.o"
+"..\..\output\dispose.o"
+"..\..\output\cjson.o"
+"..\..\output\malloc.o"
 --library_type=microlib --strict --scatter "..\..\Output\Template.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

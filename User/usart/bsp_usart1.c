@@ -19,11 +19,12 @@
 #include "utility.h"
 #include <string.h>
 #include "List.h"
+#include "bsp_led.h"   
+#include "dispose.h"
 
-
-uint8_t Rx1_cnt=0;
-uint8_t Rx1_buf[400]={0};
-uint8_t Rx1_Temp[400]={0};
+uint16_t Rx1_cnt=0;
+uint16_t Rx1_buf[400]={0};
+char Rx1_Temp[400]={0};
 uint8_t Temp_cnt=0;
 
  /**
@@ -86,12 +87,18 @@ void USART1_Receive(void)
 	  delay_ms(10);
 	  if(rxlen == Rx1_cnt && rxlen)
 	  {		
-     memcpy(Rx1_Temp,Rx1_buf,Rx1_cnt);		
-//	   printf("%s",Rx1_Temp);	
-     printf("Delete List\r\n");			
-		 Delete_Node(0x02);
+     memcpy(Rx1_Temp,Rx1_buf,Rx1_cnt);
 		 memset(Rx1_buf,0,Rx1_cnt);
-     Rx1_cnt=0;	
+     Rx1_cnt=0;
+			
+	   printf("%s\r\n",Rx1_Temp);
+     printf("\r\n");			
+		 Josn_Parse_Switch(Rx1_Temp);	
+			
+//     printf("Delete List\r\n");			
+//		 Delete_Node(0x02);
+//	  	LED1_TOGGLE
+		 memset(Rx1_Temp,0,rxlen);			
 			
     }
   }

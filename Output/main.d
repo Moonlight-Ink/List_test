@@ -17,3 +17,6 @@
 ..\..\output\main.o: ..\..\User\utility\types.h
 ..\..\output\main.o: ..\..\User\led\bsp_led.h
 ..\..\output\main.o: ..\..\User\List\List.h
+..\..\output\main.o: ..\..\User\cjson\cJSON.h
+..\..\output\main.o: F:\Program Files\Keil_472a\ARM\ARMCC\bin\..\include\stddef.h
+..\..\output\main.o: ..\..\User\dispose\dispose.h
