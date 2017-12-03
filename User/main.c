@@ -42,7 +42,7 @@ int main(void)
 	Head=NodeCreat();
 	Insert_data();
 //	Print_Node();
-	
+	text(8);
 
 
 	
