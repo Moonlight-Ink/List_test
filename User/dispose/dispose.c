@@ -167,31 +167,73 @@ void printJson(cJSON * data)//以递归的方式打印json的最内层键值对
 u8  text(u8 s)
 {
 	char  test[100]="";
-	char  s1='{';
-	char  s2='\\';
-	char  s3='"';
-	char  s4=':';
-	char  s5=',';
-	char  s6='}';
 	
-	char t1[]="channel_1";
-	char tt1[]="open";
+	u8 i=0;
+	char tep1[15]={0},tep2[15]={0};
+//	char  s1='{';
+//	char  s2='\\';
+//	char  s3='"';
+//	char  s4=':';
+//	char  s5=',';
+//	char  s6='}';
+	
+//	char t1[]="channel_1";
+//	char tt1[]="open";
   
-	strcpy(test,&s1);
-  strcat(test,&s2);
-  strcat(test,&s3);		
-	strcat(test,t1);
-	strcat(test,&s2);
-	strcat(test,&s3);
-	strcat(test,&s4);
-	strcat(test,&s2);
-	strcat(test,&s3);
-	strcat(test,tt1);
-	strcat(test,&s2);
-	strcat(test,&s3);
-	strcat(test,&s6);
+//	strcpy(test,&s1);
+//  strcat(test,&s2);
+//  strcat(test,&s3);		
+//	strcat(test,t1);
+//	strcat(test,&s2);
+//	strcat(test,&s3);
+//	strcat(test,&s4);
+//	strcat(test,&s2);
+//	strcat(test,&s3);
+//	strcat(test,tt1);
+//	strcat(test,&s2);
+//	strcat(test,&s3);
+//	strcat(test,&s6);
+//	
+//	printf("%s",test);
+
+  strcpy(test,"{");
 	
-	printf("%s",test);
+	for(i=0;i<3;i++)
+	{
+		sprintf(tep1,"channel_%d",i);
+//		  printf("%s",tep1);
+//			
+		if(i%2)
+		{
+			memcpy(tep2,"press",sizeof("press")); 
+		}		
+		else
+		{
+		 memcpy(tep2,"unpress",sizeof("unpress")); 
+		}
+		
+			
+	  strcat(test,"\\\"");
+	  strcat(test,tep1);
+		strcat(test,"\\\":\\\"");
+		strcat(test,tep2);
+	  strcat(test,"\\\"");
+//		
+		
+		if(i<2)
+		{
+    strcat(test,",");
+   }
+ 
+  }
+	
+
+
+
+			  strcat(test,"}");
+		
+  printf("%s",test);
+
 
 }
 

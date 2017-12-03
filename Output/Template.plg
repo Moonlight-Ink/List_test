@@ -3,7 +3,1113 @@
 <pre>
 <h1>礦ision Build Log</h1>
 <h2>Project:</h2>
-J:\新建文件夹\List_test\Project\RVMDK（uv4）\iSO-STM32.uvproj
-Project File Date:  11/29/2017
+C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\iSO-STM32.uvproj
+Project File Date:  12/03/2017
 
 <h2>Output:</h2>
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Clean started: Project: 'iSO-STM32'
+   deleting intermediate output files for target 'Template'
+Rebuild target 'Template'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling bsp_usart1.c...
+compiling bsp_led.c...
+compiling List.c...
+compiling utility.c...
+compiling dispose.c...
+..\..\User\dispose\dispose.c(208): warning:  #940-D: missing return statement at end of non-void function "text"
+..\..\User\dispose\dispose.c(177): warning:  #177-D: variable "t1" was declared but never referenced
+compiling cJSON.c...
+..\..\User\cjson\cJSON.c(57): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(223): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(341): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(431): warning:  #1293-D: assignment in condition
+compiling malloc.c...
+linking...
+Program Size: Code=19240 RO-data=488 RW-data=104 ZI-data=20144  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Errors, 6 Warning(s).
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Rebuild target 'Template'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling bsp_usart1.c...
+compiling bsp_led.c...
+compiling List.c...
+compiling utility.c...
+compiling dispose.c...
+..\..\User\dispose\dispose.c(208): warning:  #940-D: missing return statement at end of non-void function "text"
+compiling cJSON.c...
+..\..\User\cjson\cJSON.c(57): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(223): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(341): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(431): warning:  #1293-D: assignment in condition
+compiling malloc.c...
+linking...
+Program Size: Code=19236 RO-data=492 RW-data=104 ZI-data=20144  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Errors, 5 Warning(s).
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Rebuild target 'Template'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling bsp_usart1.c...
+compiling bsp_led.c...
+compiling List.c...
+compiling utility.c...
+compiling dispose.c...
+..\..\User\dispose\dispose.c(237): warning:  #940-D: missing return statement at end of non-void function "text"
+..\..\User\dispose\dispose.c(180): warning:  #177-D: variable "t1" was declared but never referenced
+..\..\User\dispose\dispose.c(181): warning:  #177-D: variable "tt1" was declared but never referenced
+..\..\User\dispose\dispose.c(237): warning: C4488E: write to variable 'temp2' with offset out of bounds
+compiling cJSON.c...
+..\..\User\cjson\cJSON.c(57): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(223): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(341): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(431): warning:  #1293-D: assignment in condition
+compiling malloc.c...
+linking...
+Program Size: Code=19320 RO-data=488 RW-data=104 ZI-data=20144  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Errors, 8 Warning(s).
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Rebuild target 'Template'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling bsp_usart1.c...
+compiling bsp_led.c...
+compiling List.c...
+compiling utility.c...
+compiling dispose.c...
+..\..\User\dispose\dispose.c(237): warning:  #940-D: missing return statement at end of non-void function "text"
+..\..\User\dispose\dispose.c(171): warning:  #177-D: variable "i" was declared but never referenced
+..\..\User\dispose\dispose.c(172): warning:  #177-D: variable "temp1" was declared but never referenced
+..\..\User\dispose\dispose.c(172): warning:  #177-D: variable "temp2" was declared but never referenced
+..\..\User\dispose\dispose.c(180): warning:  #177-D: variable "t1" was declared but never referenced
+..\..\User\dispose\dispose.c(181): warning:  #177-D: variable "tt1" was declared but never referenced
+compiling cJSON.c...
+..\..\User\cjson\cJSON.c(57): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(223): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(341): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(431): warning:  #1293-D: assignment in condition
+compiling malloc.c...
+linking...
+Program Size: Code=19252 RO-data=492 RW-data=104 ZI-data=20144  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Errors, 10 Warning(s).
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Rebuild target 'Template'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling bsp_usart1.c...
+compiling bsp_led.c...
+compiling List.c...
+compiling utility.c...
+compiling dispose.c...
+..\..\User\dispose\dispose.c(237): warning:  #940-D: missing return statement at end of non-void function "text"
+..\..\User\dispose\dispose.c(171): warning:  #177-D: variable "i" was declared but never referenced
+..\..\User\dispose\dispose.c(172): warning:  #177-D: variable "temp2" was declared but never referenced
+..\..\User\dispose\dispose.c(180): warning:  #177-D: variable "t1" was declared but never referenced
+..\..\User\dispose\dispose.c(181): warning:  #177-D: variable "tt1" was declared but never referenced
+compiling cJSON.c...
+..\..\User\cjson\cJSON.c(57): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(223): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(341): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(431): warning:  #1293-D: assignment in condition
+compiling malloc.c...
+linking...
+Program Size: Code=19264 RO-data=488 RW-data=104 ZI-data=20144  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Errors, 9 Warning(s).
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Template'
+compiling dispose.c...
+..\..\User\dispose\dispose.c(238): warning:  #940-D: missing return statement at end of non-void function "text"
+..\..\User\dispose\dispose.c(169): warning:  #177-D: variable "test" was declared but never referenced
+..\..\User\dispose\dispose.c(171): warning:  #177-D: variable "i" was declared but never referenced
+..\..\User\dispose\dispose.c(172): warning:  #177-D: variable "temp2" was declared but never referenced
+linking...
+Program Size: Code=19120 RO-data=488 RW-data=104 ZI-data=20144  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Errors, 4 Warning(s).
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Rebuild target 'Template'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling bsp_usart1.c...
+compiling bsp_led.c...
+compiling List.c...
+compiling utility.c...
+compiling dispose.c...
+..\..\User\dispose\dispose.c(238): warning:  #940-D: missing return statement at end of non-void function "text"
+..\..\User\dispose\dispose.c(169): warning:  #177-D: variable "test" was declared but never referenced
+..\..\User\dispose\dispose.c(171): warning:  #177-D: variable "i" was declared but never referenced
+..\..\User\dispose\dispose.c(172): warning:  #177-D: variable "temp2" was declared but never referenced
+compiling cJSON.c...
+..\..\User\cjson\cJSON.c(57): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(223): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(341): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(431): warning:  #1293-D: assignment in condition
+compiling malloc.c...
+linking...
+Program Size: Code=19120 RO-data=488 RW-data=104 ZI-data=20144  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Errors, 8 Warning(s).
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Template'
+compiling dispose.c...
+..\..\User\dispose\dispose.c(238): warning:  #940-D: missing return statement at end of non-void function "text"
+..\..\User\dispose\dispose.c(171): warning:  #177-D: variable "i" was declared but never referenced
+..\..\User\dispose\dispose.c(172): warning:  #177-D: variable "temp2" was declared but never referenced
+linking...
+Program Size: Code=19176 RO-data=488 RW-data=104 ZI-data=20144  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Errors, 3 Warning(s).
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Rebuild target 'Template'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling bsp_usart1.c...
+compiling bsp_led.c...
+compiling List.c...
+compiling utility.c...
+compiling dispose.c...
+..\..\User\dispose\dispose.c(238): warning:  #940-D: missing return statement at end of non-void function "text"
+..\..\User\dispose\dispose.c(171): warning:  #177-D: variable "i" was declared but never referenced
+..\..\User\dispose\dispose.c(172): warning:  #177-D: variable "temp2" was declared but never referenced
+compiling cJSON.c...
+..\..\User\cjson\cJSON.c(57): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(223): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(341): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(431): warning:  #1293-D: assignment in condition
+compiling malloc.c...
+linking...
+Program Size: Code=19180 RO-data=492 RW-data=104 ZI-data=20144  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Errors, 7 Warning(s).
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Clean started: Project: 'iSO-STM32'
+   deleting intermediate output files for target 'Template'
+Rebuild target 'Template'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling bsp_usart1.c...
+compiling bsp_led.c...
+compiling List.c...
+compiling utility.c...
+compiling dispose.c...
+..\..\User\dispose\dispose.c(238): warning:  #940-D: missing return statement at end of non-void function "text"
+..\..\User\dispose\dispose.c(171): warning:  #177-D: variable "i" was declared but never referenced
+compiling cJSON.c...
+..\..\User\cjson\cJSON.c(57): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(223): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(341): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(431): warning:  #1293-D: assignment in condition
+compiling malloc.c...
+linking...
+Program Size: Code=19252 RO-data=492 RW-data=104 ZI-data=20144  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Errors, 6 Warning(s).
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Rebuild target 'Template'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling bsp_usart1.c...
+compiling bsp_led.c...
+compiling List.c...
+compiling utility.c...
+compiling dispose.c...
+..\..\User\dispose\dispose.c(238): warning:  #940-D: missing return statement at end of non-void function "text"
+compiling cJSON.c...
+..\..\User\cjson\cJSON.c(57): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(223): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(341): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(431): warning:  #1293-D: assignment in condition
+compiling malloc.c...
+linking...
+Program Size: Code=19304 RO-data=488 RW-data=104 ZI-data=20144  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Errors, 5 Warning(s).
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Template'
+compiling dispose.c...
+..\..\User\dispose\dispose.c(238): warning:  #940-D: missing return statement at end of non-void function "text"
+linking...
+Program Size: Code=19312 RO-data=488 RW-data=104 ZI-data=20144  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Errors, 1 Warning(s).
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Template'
+compiling dispose.c...
+..\..\User\dispose\dispose.c(238): warning:  #940-D: missing return statement at end of non-void function "text"
+linking...
+Program Size: Code=19312 RO-data=488 RW-data=104 ZI-data=20144  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Errors, 1 Warning(s).
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Template'
+linking...
+Program Size: Code=19312 RO-data=488 RW-data=104 ZI-data=20144  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Errors, 0 Warning(s).
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Clean started: Project: 'iSO-STM32'
+   deleting intermediate output files for target 'Template'
+Clean started: Project: 'iSO-STM32'
+   deleting intermediate output files for target 'Template'
+Rebuild target 'Template'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling bsp_usart1.c...
+compiling bsp_led.c...
+compiling List.c...
+compiling utility.c...
+compiling dispose.c...
+..\..\User\dispose\dispose.c(238): warning:  #940-D: missing return statement at end of non-void function "text"
+compiling cJSON.c...
+..\..\User\cjson\cJSON.c(57): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(223): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(341): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(431): warning:  #1293-D: assignment in condition
+compiling malloc.c...
+linking...
+Program Size: Code=19312 RO-data=488 RW-data=104 ZI-data=20144  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Errors, 5 Warning(s).
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Rebuild target 'Template'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling bsp_usart1.c...
+compiling bsp_led.c...
+compiling List.c...
+compiling utility.c...
+compiling dispose.c...
+..\..\User\dispose\dispose.c(238): warning:  #940-D: missing return statement at end of non-void function "text"
+compiling cJSON.c...
+..\..\User\cjson\cJSON.c(57): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(223): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(341): warning:  #1293-D: assignment in condition
+..\..\User\cjson\cJSON.c(431): warning:  #1293-D: assignment in condition
+compiling malloc.c...
+linking...
+Program Size: Code=19312 RO-data=488 RW-data=104 ZI-data=20144  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Errors, 5 Warning(s).
+Load "..\\..\\Output\\Template.axf" 
+Set JLink Project File to "C:\Users\Shadow\Desktop\List_test\Project\RVMDK（uv4）\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
