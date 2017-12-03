@@ -2,10 +2,10 @@
 #include "dispose.h"
 
 #include <stdlib.h>
-#include "string.h"
+#include <string.h>
 #include "bsp_usart1.h"
 #include "bsp_led.h"   
-
+#include <stdio.h>
 
 void Josn_Parse_Switch(char *data)
 {		
@@ -169,7 +169,11 @@ u8  text(u8 s)
 	char  test[100]="";
 	
 	u8 i=0;
-	char tep1[15]={0},tep2[15]={0};
+//	char tep1[15]={0},tep2[15]={0};
+	char *tep1=NULL;
+  char *tep2=NULL;	
+	tep1=(char*)malloc(sizeof(char) * 15);
+  tep2=(char*)malloc(sizeof(char) * 15);
 //	char  s1='{';
 //	char  s2='\\';
 //	char  s3='"';
@@ -201,36 +205,34 @@ u8  text(u8 s)
 	for(i=0;i<3;i++)
 	{
 		sprintf(tep1,"channel_%d",i);
-//		  printf("%s",tep1);
+		  printf("%s",tep1);
 //			
 		if(i%2)
 		{
-			memcpy(tep2,"press",sizeof("press")); 
+			memcpy(tep2,"press",8); 
 		}		
 		else
 		{
-		 memcpy(tep2,"unpress",sizeof("unpress")); 
+		 memcpy(tep2,"unpress",10); 
 		}
 		
 			
 	  strcat(test,"\\\"");
 	  strcat(test,tep1);
+		
 		strcat(test,"\\\":\\\"");
 		strcat(test,tep2);
 	  strcat(test,"\\\"");
-//		
-		
 		if(i<2)
 		{
     strcat(test,",");
    }
- 
   }
-	
-
-
-
-			  strcat(test,"}");
+    free(tep1);
+    free(tep2);
+		tep1=NULL;
+		tep2=NULL;	
+		strcat(test,"}");
 		
   printf("%s",test);
 
