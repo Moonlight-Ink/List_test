@@ -30,25 +30,27 @@
 #include "cJSON.h"
 #include "dispose.h"
 
-
-
+//st gpio[]={{1,0x01},{3,0x00},{5,0x00},{6,0x01}};
+	
 int main(void)
 { 	 
 	systick_init(72);				            /*初始化Systick工作时钟*/
 	USART1_Config(); 				            /*初始化串口通信:115200@8-n-1*/
   LED_GPIO_Config();
-  printf(" List Test\r\n");		
+//  printf(" List Test\r\n");		
+//	
+//	Head=NodeCreat();
+//	Insert_data();
+////	Print_Node();
+//	text(gpio,4);
+//  Creat_Cjson();
 	
-	Head=NodeCreat();
-	Insert_data();
-//	Print_Node();
-	text(8);
-
 
 	
 	while(1)                            /*循环执行的函数*/ 
 	{
 		USART1_Receive();
+
 	}
 } 
 

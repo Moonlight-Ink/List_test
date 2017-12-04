@@ -13,6 +13,7 @@
 ..\..\output\dispose.o: ..\..\Libraries\FWlib\inc\misc.h
 ..\..\output\dispose.o: ..\..\User\cjson\cJSON.h
 ..\..\output\dispose.o: F:\Program Files\Keil_472a\ARM\ARMCC\bin\..\include\stddef.h
+..\..\output\dispose.o: ..\..\User\cjson\malloc.h
 ..\..\output\dispose.o: F:\Program Files\Keil_472a\ARM\ARMCC\bin\..\include\stdlib.h
 ..\..\output\dispose.o: F:\Program Files\Keil_472a\ARM\ARMCC\bin\..\include\string.h
 ..\..\output\dispose.o: ..\..\User\usart\bsp_usart1.h

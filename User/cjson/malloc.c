@@ -137,7 +137,7 @@ void myfree(void *ptr)
 void *mymalloc(u32 size)  
 {  
     u32 offset;  									      
-	offset=mem_malloc(size);  	   				   
+  	offset=mem_malloc(size);  	   				   
     if(offset==0XFFFFFFFF)return NULL;  
     else return (void*)((u32)mallco_dev.membase+offset);  
 }  

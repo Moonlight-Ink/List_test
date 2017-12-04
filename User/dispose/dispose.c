@@ -1,11 +1,12 @@
-
 #include "dispose.h"
-
+#include "malloc.h"
 #include <stdlib.h>
 #include <string.h>
 #include "bsp_usart1.h"
 #include "bsp_led.h"   
 #include <stdio.h>
+
+st gpio[]={{1,0x01},{3,0x00},{5,0x00},{6,0x01}};
 
 void Josn_Parse_Switch(char *data)
 {		
@@ -159,55 +160,44 @@ void printJson(cJSON * data)//以递归的方式打印json的最内层键值对
 	}
 }
 
-
-
-
-
-
-u8  text(u8 s)
+void Creat_Cjson(void)
 {
-	char  test[100]="";
+	cJSON *root;
+	char *out; 
+  char tc[150]={0};
 	
+	text(gpio,tc,4);
+	
+	root=cJSON_CreateObject();
+	cJSON_AddStringToObject(root,"cmd","report");
+	cJSON_AddStringToObject(root,"model","perfe1");
+	cJSON_AddNumberToObject(root,"addr",0x03);
+	cJSON_AddStringToObject(root,"type","io");
+	cJSON_AddStringToObject(root,"io",tc);
+  out=cJSON_Print(root);
+	cJSON_Delete(root);
+	printf("%s\n",out);
+	myfree(out);
+
+}
+
+
+
+
+char text(st *temp,char *str,u8 cnt)
+{
 	u8 i=0;
-//	char tep1[15]={0},tep2[15]={0};
 	char *tep1=NULL;
   char *tep2=NULL;	
 	tep1=(char*)malloc(sizeof(char) * 15);
   tep2=(char*)malloc(sizeof(char) * 15);
-//	char  s1='{';
-//	char  s2='\\';
-//	char  s3='"';
-//	char  s4=':';
-//	char  s5=',';
-//	char  s6='}';
+  strcpy(str,"{");
 	
-//	char t1[]="channel_1";
-//	char tt1[]="open";
-  
-//	strcpy(test,&s1);
-//  strcat(test,&s2);
-//  strcat(test,&s3);		
-//	strcat(test,t1);
-//	strcat(test,&s2);
-//	strcat(test,&s3);
-//	strcat(test,&s4);
-//	strcat(test,&s2);
-//	strcat(test,&s3);
-//	strcat(test,tt1);
-//	strcat(test,&s2);
-//	strcat(test,&s3);
-//	strcat(test,&s6);
-//	
-//	printf("%s",test);
-
-  strcpy(test,"{");
-	
-	for(i=0;i<3;i++)
+	for(i=0;i<cnt;)
 	{
-		sprintf(tep1,"channel_%d",i);
-		  printf("%s",tep1);
-//			
-		if(i%2)
+		sprintf(tep1,"channel_%d",(temp+i)->Channel_Num);
+		
+		if((temp+i)->Channel_State)
 		{
 			memcpy(tep2,"press",8); 
 		}		
@@ -217,26 +207,22 @@ u8  text(u8 s)
 		}
 		
 			
-	  strcat(test,"\\\"");
-	  strcat(test,tep1);
-		
-		strcat(test,"\\\":\\\"");
-		strcat(test,tep2);
-	  strcat(test,"\\\"");
-		if(i<2)
+	  strcat(str,"\"");
+	  strcat(str,tep1);
+		strcat(str,"\":\"");
+		strcat(str,tep2);
+	  strcat(str,"\"");
+		i++;
+		if(i<cnt)
 		{
-    strcat(test,",");
-   }
+     strcat(str,",");
+    }
   }
     free(tep1);
     free(tep2);
 		tep1=NULL;
 		tep2=NULL;	
-		strcat(test,"}");
-		
-  printf("%s",test);
-
-
+		strcat(str,"}");
 }
 
 

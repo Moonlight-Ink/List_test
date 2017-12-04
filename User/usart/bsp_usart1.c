@@ -53,7 +53,7 @@ void USART1_Config(void)
 		GPIO_Init(GPIOA, &GPIO_InitStructure);
 			
 		/* USART1 mode config */
-		USART_InitStructure.USART_BaudRate = 115200;
+		USART_InitStructure.USART_BaudRate = 9600;
 		USART_InitStructure.USART_WordLength = USART_WordLength_8b;
 		USART_InitStructure.USART_StopBits = USART_StopBits_1;
 		USART_InitStructure.USART_Parity = USART_Parity_No ;
@@ -85,22 +85,24 @@ void USART1_Receive(void)
 	if(rxlen == Rx1_cnt && rxlen)
 	{
 	  delay_ms(10);
-	  if(rxlen == Rx1_cnt && rxlen)
-	  {		
-     memcpy(Rx1_Temp,Rx1_buf,Rx1_cnt);
-		 memset(Rx1_buf,0,Rx1_cnt);
+		
+				Creat_Cjson();
+//	  if(rxlen == Rx1_cnt && rxlen)
+//	  {		
+//     memcpy(Rx1_Temp,Rx1_buf,Rx1_cnt);
+//		 memset(Rx1_buf,0,Rx1_cnt);
      Rx1_cnt=0;
-			
-	   printf("%s\r\n",Rx1_Temp);
-     printf("\r\n");			
-		 Josn_Parse_Switch(Rx1_Temp);	
-			
-//     printf("Delete List\r\n");			
-//		 Delete_Node(0x02);
-//	  	LED1_TOGGLE
+//			
+//	   printf("%s\r\n",Rx1_Temp);
+//     printf("\r\n");			
+//		 Josn_Parse_Switch(Rx1_Temp);	
+//			
+////     printf("Delete List\r\n");			
+////		 Delete_Node(0x02);
+////	  	LED1_TOGGLE
 		 memset(Rx1_Temp,0,rxlen);			
-			
-    }
+////			
+//    }
   }
 }
 
